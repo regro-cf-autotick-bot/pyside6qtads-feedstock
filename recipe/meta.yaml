@@ -14,7 +14,7 @@ source:
     - 0005-init.patch
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   ignore_run_exports_from:
     # Just used for shiboken/pyside not used for python module
