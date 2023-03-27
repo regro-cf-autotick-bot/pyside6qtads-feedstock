@@ -197,7 +197,7 @@ index 1fb5475..1b782c7 100644
 -            RUNTIME DESTINATION ${CMAKE_INSTALL_LIBDIR}
 -            )
 -endif()
-+install(FILES ${hinting_stub_files}
++install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}.pyi"
 +        DESTINATION "${CMAKE_INSTALL_PREFIX}")
  
  install(FILES
