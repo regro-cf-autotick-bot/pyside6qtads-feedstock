@@ -1,5 +1,5 @@
 {% set version = "4.0.1.1" %}
- {% set version = "4.0.1" %}
+
 package:
   name: pyside6qtads
   version: {{ version }}
