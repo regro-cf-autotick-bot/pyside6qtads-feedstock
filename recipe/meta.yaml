@@ -1,3 +1,4 @@
+{% set version = "4.0.1.1" %}
  {% set version = "4.0.1" %}
 package:
   name: pyside6qtads
@@ -5,7 +6,7 @@ package:
 
 source:
   url: https://github.com/mborgerson/pyside6_qtads/archive/v{{ version }}.tar.gz
-  sha256: bb6c7efb88df26463ddfd0c25083a002e301495ec382333dd07b2155a77b2f57
+  sha256: ddb1414279824f1028e7cd4c077c7d3defe529bcc9d2bae1e2e33d85e59bf35e
   patches:
     - 0001-CMakeLists.patch
     - 0002-generate_pyi.patch
@@ -14,7 +15,7 @@ source:
     - 0005-init.patch
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   ignore_run_exports_from:
     # Just used for shiboken/pyside not used for python module
@@ -43,12 +44,11 @@ requirements:
     - pip
     - setuptools
     - xorg-libxfixes                 # [linux]
-    
   run:
     - python
     - pyside6
     - {{ pin_compatible('qt6-advanced-docking-system', max_pin='x.x') }}
-    
+
 test:
   imports:
     - PySide6QtAds
