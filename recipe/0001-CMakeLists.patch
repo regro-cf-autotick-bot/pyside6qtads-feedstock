@@ -1,5 +1,5 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 1fb5475..1b782c7 100644
+index 6203792..a76c623 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -12,7 +12,7 @@ endif()
@@ -31,7 +31,7 @@ index 1fb5475..1b782c7 100644
  
  # The name of the generated bindings module (as imported in Python).
  set(bindings_library "PySide6QtAds")
-@@ -54,20 +54,14 @@ set(generated_sources
+@@ -57,20 +57,14 @@ set(generated_sources
      ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_cdockcomponentsfactory_wrapper.cpp
      ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_cdockcontainerwidget_wrapper.cpp
      ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_cdockfocuscontroller_wrapper.cpp
@@ -49,10 +49,10 @@ index 1fb5475..1b782c7 100644
 -    ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_cspacerwidget_wrapper.cpp
 -    ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_ctitlebarbutton_wrapper.cpp
 -    ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_ifloatingwidget_wrapper.cpp
+     ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_cpushbutton_wrapper.cpp
+     ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_cresizehandle_wrapper.cpp
      ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/ads_wrapper.cpp
-     ${CMAKE_CURRENT_BINARY_DIR}/${bindings_library}/pyside6qtads_module_wrapper.cpp
-     )
-@@ -75,51 +69,22 @@ set(generated_sources
+@@ -80,51 +74,22 @@ set(generated_sources
  
  # ================================== Shiboken detection ======================================
  
@@ -113,7 +113,7 @@ index 1fb5475..1b782c7 100644
  if(UNIX AND NOT APPLE)
      set(CMAKE_INSTALL_RPATH "$ORIGIN/lib:$ORIGIN/../PySide6/:$ORIGIN/../PySide6/Qt/lib:$ORIGIN/../shiboken6")
  endif()
-@@ -186,15 +151,20 @@ foreach(_current ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})
+@@ -191,15 +156,20 @@ foreach(_current ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})
      set(implicit_includes ${implicit_includes} "-I${_current}")
  endforeach()
  
@@ -136,7 +136,7 @@ index 1fb5475..1b782c7 100644
      --output-directory=${CMAKE_CURRENT_BINARY_DIR}
      )
  
-@@ -221,17 +191,21 @@ add_library(${bindings_library} MODULE ${${bindings_library}_sources})
+@@ -226,17 +196,21 @@ add_library(${bindings_library} MODULE ${${bindings_library}_sources})
  # Apply relevant include and link flags.
  target_include_directories(${bindings_library} PRIVATE ${pyside_additional_includes})
  target_include_directories(${bindings_library} PRIVATE ${pyside_include_dir})
@@ -163,7 +163,7 @@ index 1fb5475..1b782c7 100644
  target_compile_definitions(${bindings_library} PRIVATE "-DPy_LIMITED_API=0x03070000")
  
  # Adjust the name of generated module.
-@@ -248,10 +222,21 @@ if(APPLE)
+@@ -253,10 +227,21 @@ if(APPLE)
  endif(APPLE)
  
  if (WIN32)
@@ -187,7 +187,7 @@ index 1fb5475..1b782c7 100644
  
  # ================================= Dubious deployment section ================================
  
-@@ -260,16 +245,11 @@ install(TARGETS ${bindings_library}
+@@ -265,16 +250,11 @@ install(TARGETS ${bindings_library}
          RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}
          )
  

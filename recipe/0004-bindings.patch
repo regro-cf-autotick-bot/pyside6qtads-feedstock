@@ -1,17 +1,17 @@
 diff --git a/src/bindings.xml b/src/bindings.xml
-index abd9bcf..fc05be9 100644
+index 84cf2ae..6d81586 100644
 --- a/src/bindings.xml
 +++ b/src/bindings.xml
-@@ -374,7 +374,7 @@
-             </modify-function>
-         </object-type>
- 
+@@ -445,7 +445,7 @@
+         
+         <object-type name="CResizeHandle" />
+         
 -        <object-type name="CDockOverlayCross">
 +        <!--<object-type name="CDockOverlayCross">
              <enum-type name="eIconColor"/>
          </object-type>
  
-@@ -382,7 +382,7 @@
+@@ -453,7 +453,7 @@
          <object-type name="CFloatingDragPreview"/>
          <object-type name="CSpacerWidget"/>
          <object-type name="CTitleBarButton"/>
