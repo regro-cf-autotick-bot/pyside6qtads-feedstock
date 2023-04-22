@@ -3,11 +3,22 @@ About pyside6qtads-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyside6qtads-feedstock/blob/main/LICENSE.txt)
 
+About pyside6qtads
+------------------
+
 Home: https://github.com/mborgerson/pyside6_qtads
 
 Package license: LGPL-2.1-only
 
 Summary: PySide6 bindings for Qt-Advanced-Docking-System
+About pyside2qtads
+------------------
+
+Home: https://github.com/mborgerson/pyside6_qtads
+
+Package license: LGPL-2.1-only
+
+Summary: PySide2 bindings for Qt-Advanced-Docking-System
 
 Current build status
 ====================
@@ -27,87 +38,171 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpython</td>
+              <td>linux_64_python3.10.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonqt5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpython</td>
+              <td>linux_64_python3.10.____cpythonqt6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpython</td>
+              <td>linux_64_python3.11.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonqt5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpython</td>
+              <td>linux_64_python3.11.____cpythonqt6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpython</td>
+              <td>linux_64_python3.8.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonqt5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpython</td>
+              <td>linux_64_python3.8.____cpythonqt6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.8.____cpython</td>
+              <td>linux_64_python3.9.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonqt5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.9.____cpython</td>
+              <td>linux_64_python3.9.____cpythonqt6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpython</td>
+              <td>osx_64_python3.10.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonqt5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpython</td>
+              <td>osx_64_python3.10.____cpythonqt6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.8.____cpython</td>
+              <td>osx_64_python3.11.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonqt5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.9.____cpython</td>
+              <td>osx_64_python3.11.____cpythonqt6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.8.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.8.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.9.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.9.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.10.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.10.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.11.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.11.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr>
@@ -123,6 +218,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyside2qtads-green.svg)](https://anaconda.org/conda-forge/pyside2qtads) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyside2qtads.svg)](https://anaconda.org/conda-forge/pyside2qtads) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyside2qtads.svg)](https://anaconda.org/conda-forge/pyside2qtads) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyside2qtads.svg)](https://anaconda.org/conda-forge/pyside2qtads) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pyside6qtads-green.svg)](https://anaconda.org/conda-forge/pyside6qtads) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyside6qtads.svg)](https://anaconda.org/conda-forge/pyside6qtads) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyside6qtads.svg)](https://anaconda.org/conda-forge/pyside6qtads) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyside6qtads.svg)](https://anaconda.org/conda-forge/pyside6qtads) |
 
 Installing pyside6qtads
@@ -135,41 +231,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pyside6qtads` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `pyside2qtads, pyside6qtads` can be installed with `conda`:
 
 ```
-conda install pyside6qtads
-```
-
-or with `mamba`:
-
-```
-mamba install pyside6qtads
-```
-
-It is possible to list all of the versions of `pyside6qtads` available on your platform with `conda`:
-
-```
-conda search pyside6qtads --channel conda-forge
+conda install pyside2qtads pyside6qtads
 ```
 
 or with `mamba`:
 
 ```
-mamba search pyside6qtads --channel conda-forge
+mamba install pyside2qtads pyside6qtads
+```
+
+It is possible to list all of the versions of `pyside2qtads` available on your platform with `conda`:
+
+```
+conda search pyside2qtads --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search pyside2qtads --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search pyside6qtads --channel conda-forge
+mamba repoquery search pyside2qtads --channel conda-forge
 
-# List packages depending on `pyside6qtads`:
-mamba repoquery whoneeds pyside6qtads --channel conda-forge
+# List packages depending on `pyside2qtads`:
+mamba repoquery whoneeds pyside2qtads --channel conda-forge
 
-# List dependencies of `pyside6qtads`:
-mamba repoquery depends pyside6qtads --channel conda-forge
+# List dependencies of `pyside2qtads`:
+mamba repoquery depends pyside2qtads --channel conda-forge
 ```
 
 
