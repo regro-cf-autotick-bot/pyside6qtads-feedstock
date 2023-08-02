@@ -1,8 +1,45 @@
 diff --git a/src/bindings.xml b/src/bindings.xml
-index 84cf2ae..6d81586 100644
+index f6a2d92..e51e49f 100644
 --- a/src/bindings.xml
 +++ b/src/bindings.xml
-@@ -445,7 +445,7 @@
+@@ -134,6 +134,8 @@
+                     <parent index="this" action="add"/>
+                 </modify-argument>
+             </modify-function>
++            <modify-function signature="createAutoHideContainerIfPinnable(ads::SideBarLocation, ads::CDockWidget*)" remove="all">
++            </modify-function>
+             <modify-function signature="dropFloatingWidget(ads::CFloatingDockContainer*, const QPoint&amp;)">
+                 <modify-argument index="1">
+                     <parent index="this" action="add"/>
+@@ -345,7 +347,7 @@
+                     <parent index="this" action="add"/>
+                 </modify-argument>
+             </modify-function>
+-            <modify-function signature="setSideTabWidget(ads::CAutoHideTab*)">
++            <modify-function signature="setSideTabWidget(ads::CAutoHideTab*)const">
+                 <modify-argument index="1">
+                     <parent index="this" action="add"/>
+                 </modify-argument>
+@@ -371,6 +373,8 @@
+                     <parent index="this" action="add"/>
+                 </modify-argument>
+             </modify-function>
++            <modify-function signature="mousePressed() const" remove="all">
++            </modify-function>
+         </object-type>
+ 
+         <object-type name="CElidingLabel">
+@@ -437,6 +441,9 @@
+                 <modify-argument index="1">
+                     <parent index="this" action="add"/>
+                 </modify-argument>
++                <modify-argument index="2">
++                    <replace-default-expression with="ads::TabDefaultInsertIndex" />
++                </modify-argument>
+             </modify-function>
+         </object-type>
+         
+@@ -446,7 +453,7 @@
          
          <object-type name="CResizeHandle" />
          
@@ -11,7 +48,7 @@ index 84cf2ae..6d81586 100644
              <enum-type name="eIconColor"/>
          </object-type>
  
-@@ -453,7 +453,7 @@
+@@ -454,7 +461,7 @@
          <object-type name="CFloatingDragPreview"/>
          <object-type name="CSpacerWidget"/>
          <object-type name="CTitleBarButton"/>
