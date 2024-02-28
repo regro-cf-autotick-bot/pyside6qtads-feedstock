@@ -24,7 +24,7 @@ source:
     - 0006-python-executable.patch  # [qt==6]
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} {{ RECIPE_DIR }}/replace_qt_version.py && {{ PYTHON }} -m pip install . -vv  # [qt==5]
   script: {{ PYTHON }} -m pip install . -vv  # [qt==6]
   # Shiboken2 is compatible with python up to 3.10

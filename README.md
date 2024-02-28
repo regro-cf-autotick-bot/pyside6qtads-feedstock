@@ -1,17 +1,8 @@
-About pyside2qtads-feedstock
+About pyside6qtads-feedstock
 ============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyside6qtads-feedstock/blob/main/LICENSE.txt)
 
-
-About pyside2qtads
-------------------
-
-Home: https://github.com/mborgerson/pyside6_qtads
-
-Package license: LGPL-2.1-only
-
-Summary: PySide2 bindings for Qt-Advanced-Docking-System
 
 About pyside6qtads
 ------------------
@@ -21,6 +12,15 @@ Home: https://github.com/mborgerson/pyside6_qtads
 Package license: LGPL-2.1-only
 
 Summary: PySide6 bindings for Qt-Advanced-Docking-System
+
+About pyside2qtads
+------------------
+
+Home: https://github.com/mborgerson/pyside6_qtads
+
+Package license: LGPL-2.1-only
+
+Summary: PySide2 bindings for Qt-Advanced-Docking-System
 
 Current build status
 ====================
@@ -65,6 +65,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonqt6" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -124,6 +138,20 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_python3.12.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.12.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_python3.8.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
@@ -180,6 +208,20 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>win_64_python3.12.____cpythonqt5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythonqt5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.12.____cpythonqt6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyside6qtads-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythonqt6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_python3.8.____cpythonqt5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18808&branchName=main">
@@ -223,10 +265,10 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pyside2qtads-green.svg)](https://anaconda.org/conda-forge/pyside2qtads) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyside2qtads.svg)](https://anaconda.org/conda-forge/pyside2qtads) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyside2qtads.svg)](https://anaconda.org/conda-forge/pyside2qtads) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyside2qtads.svg)](https://anaconda.org/conda-forge/pyside2qtads) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pyside6qtads-green.svg)](https://anaconda.org/conda-forge/pyside6qtads) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyside6qtads.svg)](https://anaconda.org/conda-forge/pyside6qtads) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyside6qtads.svg)](https://anaconda.org/conda-forge/pyside6qtads) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyside6qtads.svg)](https://anaconda.org/conda-forge/pyside6qtads) |
 
-Installing pyside2qtads
+Installing pyside6qtads
 =======================
 
-Installing `pyside2qtads` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `pyside6qtads` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -312,17 +354,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating pyside2qtads-feedstock
+Updating pyside6qtads-feedstock
 ===============================
 
-If you would like to improve the pyside2qtads recipe or build a new
+If you would like to improve the pyside6qtads recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/pyside2qtads-feedstock are
+Note that all branches in the conda-forge/pyside6qtads-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
