@@ -1,0 +1,14 @@
+diff --git a/setup.py b/setup.py
+index 8bcd29d..ba6a85a 100644
+--- a/setup.py
++++ b/setup.py
+@@ -87,7 +87,8 @@ setuptools.setup(
+                 "-DBUILD_EXAMPLES:BOOL=OFF",
+                 "-DBUILD_STATIC:BOOL=ON",
+                 "-DADS_VERSION=4.2.1",
+-                f"-DPython3_ROOT_DIR={Path(sys.prefix)}"
++                f"-DPython3_ROOT_DIR={Path(sys.prefix)}",
++                f"-DPython_EXECUTABLE={Path(sys.executable)}"
+             ],
+             py_limited_api=True
+         ),
