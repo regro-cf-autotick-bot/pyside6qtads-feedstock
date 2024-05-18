@@ -24,7 +24,7 @@ source:
     - 0006-python-executable.patch  # [qt==6]
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} {{ RECIPE_DIR }}/replace_qt_version.py && {{ PYTHON }} -m pip install . -vv  # [qt==5]
   script: {{ PYTHON }} -m pip install . -vv  # [qt==6]
   # Shiboken2 is compatible with python up to 3.10
@@ -38,6 +38,7 @@ requirements:
     - cmake
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - clangdev
     - ninja
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
