@@ -29,6 +29,8 @@ build:
   script: {{ PYTHON }} -m pip install . -vv  # [qt==6]
   # Shiboken2 is compatible with python up to 3.10
   skip: true  # [qt==5 and py>=311]
+  # Pyside6>=6.7 is not built against python <3.9
+  skip: true  # [qt==6 and py<39]
   ignore_run_exports_from:
     # Just used for shiboken/pyside not used for python module
     - clangdev  # [not osx]
