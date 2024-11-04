@@ -156,8 +156,8 @@ index c02188e..612d1ed 100644
 +    target_link_libraries(${bindings_library} PUBLIC PySide6::pyside6)
 +endif()
  
--target_compile_options(qt6advanceddocking PRIVATE -Og)
--target_compile_options(${bindings_library} PRIVATE -Og)
+-target_compile_options(qt6advanceddocking PRIVATE -Og -fPIC)
+-target_compile_options(${bindings_library} PRIVATE -Og -fPIC)
  target_compile_definitions(${bindings_library} PRIVATE "-DPy_LIMITED_API=0x03070000")
  
  # Adjust the name of generated module.
