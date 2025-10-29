@@ -1,5 +1,5 @@
 {% set name = 'pyside2qtads' if qt == '5' else 'pyside6qtads' %}
-{% set version = "4.3.1.3" %}
+{% set version = "4.4.1.1" %}
 
 {% set qt = '6' if qt == '' else qt %}
 
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://github.com/mborgerson/pyside6_qtads/archive/v{{ version }}.tar.gz
-  sha256: 51d3f76990827c823f1803ace161a71b2bf5ad990c76d5c90b98db37d26c64bc
+  sha256: ee8be00a3f6845594dcbbcff18c2cc61b999ac9efca9cd561ef9096b38695aa8
   patches:
     - 0001-CMakeLists.patch
     - 0002-generate_pyi_qt6.patch  # [qt==6]
