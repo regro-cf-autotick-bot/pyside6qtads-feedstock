@@ -1,0 +1,22 @@
+diff --git a/src/bindings.xml b/src/bindings.xml
+index 805ed99..db87945 100644
+--- a/src/bindings.xml
++++ b/src/bindings.xml
+@@ -199,7 +199,7 @@
+             <enum-type name="eViewMenuInsertionOrder" />
+             <enum-type name="eConfigFlag" flags="ConfigFlags" />
+             <enum-type name="eAutoHideFlag" flags="AutoHideFlags" />
+-            <enum-type name="eConfigParam" flags="ConfigParam" />
++            <!--<enum-type name="eConfigParam" flags="ConfigParam" />-->
+ 
+             <modify-function signature="registerFloatingWidget(ads::CFloatingDockContainer*)">
+                 <modify-argument index="1">
+@@ -409,7 +409,7 @@
+                     <parent index="this" action="add"/>
+                 </modify-argument>
+             </modify-function>
+-            <declare-function signature="windowHandle()" return-type="QWindow"/>
++            <!--<declare-function signature="windowHandle()" return-type="QWindow"/>-->
+         </object-type>
+ 
+         <object-type name="CIconProvider">

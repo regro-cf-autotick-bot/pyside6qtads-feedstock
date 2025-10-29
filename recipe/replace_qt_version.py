@@ -1,6 +1,7 @@
+import os
+
 FILES = [
     'CMakeLists.txt',
-    'setup.cfg',
     'setup.py',
     'src/bindings.xml',
     'init.py'
@@ -8,7 +9,10 @@ FILES = [
 
 print('## Starting replace Qt6/PySide6 by Qt5/PySide2')
 for fname in FILES:
-    print('### Processing ', fname, end='')
+    print('### Processing ', fname, end=' ')
+    if not os.path.exists(fname):
+        print('SKIPPED')
+        continue
     with open(fname, 'r') as f:
         data = f.read()
         
@@ -22,6 +26,7 @@ for fname in FILES:
     data = data.replace('Qt6', 'Qt5')
     data = data.replace('QT6', 'QT5')
     data = data.replace('qt6advanceddocking', 'qt5advanceddocking')
+    data = data.replace('qtadvanceddocking-qt6', 'qtadvanceddocking-qt5')
     
     with open(fname, 'w') as f:
         f.write(data)
