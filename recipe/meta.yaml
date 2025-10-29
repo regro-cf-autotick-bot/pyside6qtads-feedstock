@@ -23,7 +23,7 @@ source:
     - 0004-init.patch
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} {{ RECIPE_DIR }}/replace_qt_version.py && {{ PYTHON }} -m pip install . -vv --no-deps  # [qt==5]
   script: {{ PYTHON }} -m pip install . -vv --no-deps  # [qt==6]
   # Shiboken2 is compatible with python up to 3.10
