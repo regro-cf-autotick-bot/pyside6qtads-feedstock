@@ -1,5 +1,5 @@
 {% set name = 'pyside2qtads' if qt == '5' else 'pyside6qtads' %}
-{% set version = "4.4.1" %}
+{% set version = "4.5.0.1" %}
 
 {% set qt = '6' if qt == '' else qt %}
 
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://github.com/mborgerson/pyside6_qtads/archive/v{{ version }}.tar.gz
-  sha256: 64b427c618107a2bbd36b2e1cce50dd7ebbf8cd2652fb2b6181b5a67b2bb3430
+  sha256: 693f6f523771361f021eb2c22cd5ffee618bdba497893d3a77a5777e0d675cde
   patches:
     - 0001-CMakeLists.patch
     - 0002-generate_pyi_qt6.patch  # [qt==6]
@@ -23,7 +23,7 @@ source:
     - 0004-init.patch
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} {{ RECIPE_DIR }}/replace_qt_version.py && {{ PYTHON }} -m pip install . -vv --no-deps  # [qt==5]
   script: {{ PYTHON }} -m pip install . -vv --no-deps  # [qt==6]
   # Shiboken2 is compatible with python up to 3.10
