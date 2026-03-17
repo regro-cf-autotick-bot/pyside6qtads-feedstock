@@ -23,7 +23,7 @@ source:
     - 0004-init.patch
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} {{ RECIPE_DIR }}/replace_qt_version.py && {{ PYTHON }} -m pip install . -vv --no-deps  # [qt==5]
   script: {{ PYTHON }} -m pip install . -vv --no-deps  # [qt==6]
   # Shiboken2 is compatible with python up to 3.10
@@ -42,14 +42,6 @@ requirements:
     - {{ stdlib("c") }}
     - clangdev
     - ninja
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
-    - {{ cdt('libselinux') }}        # [linux]
-    - {{ cdt('libxdamage') }}        # [linux]
-    - {{ cdt('libxxf86vm') }}        # [linux]
-    - {{ cdt('libxext') }}           # [linux]
-    - {{ cdt('libglvnd-glx') }}      # [linux]
-    - {{ cdt('libglvnd-egl') }}      # [linux]
 
   host:
     - python
@@ -63,6 +55,7 @@ requirements:
     - pip
     - setuptools
     - xorg-libxfixes                 # [linux]
+    - libgl-devel                    # [linux]
   run:
     - python
     - pyside6                        # [qt==6]
