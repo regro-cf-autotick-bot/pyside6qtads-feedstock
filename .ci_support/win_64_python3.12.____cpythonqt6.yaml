@@ -17,8 +17,9 @@ python:
 qt:
 - '6'
 qt6_main:
-- '6.9'
-qt_main:
-- '5.15'
+- '6'
 target_platform:
 - win-64
+zip_keys:
+- - python
+  - channel_sources
